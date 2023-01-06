@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Product | CBD Superstore</title>
+  <style>
+    /* Use the same style rules as the main stylesheet */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: lightgreen;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+    }
+    h1 {
+      margin: 0;
+    }
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: lightgray;
+      padding: 10px;
+    }
+    nav a {
+      text-decoration: none;
+      color: black;
+    }
+    .banner {
+      background-image: url('https://via.placeholder.com/1200x200');
+      background-size: cover;
+      height: 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 36px;
+    }
+    #search {
+      display: flex;
+      align-items: center;
+      background-color: aqua;
+    }
+    form {
+      display: flex;
+      align-items: center;
+      margin: 20px;
+    }
+    label {
+      margin-right: 10px;
+    }
+    input[type="text"] {
+      width: 200px;
+      height: 25px;
+      font-size: 16px;
+      border: 1px solid gray;
+      border-radius: 5px;
+      padding: 5px;
+    }
+    button[type="submit"] {
+      background-color: lightgreen;
+      color: white;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    button[type="submit"]:hover {
+      background-color: darkgreen;
+    }
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin: 20px;
+    }
+    .product {
+      width: 300px;
+      margin: 20px;
+      text-align: center;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+    .product img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px 10px 0 0;
+    }
+    .product h3 {
+      margin: 10px;
+    }
+    .product p {
+      margin: 10px;
+    }
+    .product button {
+      background-color: lightgreen;
+      border: none;
+      padding: 10px 20px;
+      color: white;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CBD Superstore</h1>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/products">Products</a>
+      <a href="/about">About Us</a>
+      <a href="/contact">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <div class="product-detail">
+      <img src="https://via.placeholder.com/400x400" alt="Product image">
+      <h2>Product Name</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <h3>$XX.XX</h3>
+      <button>Add to Cart</button>
+    </div>
+  </main>
+  <footer>
+    <p>Copyright &copy; 2022 CBD Superstore</p>
+  </footer>
+</body>
+</html>
